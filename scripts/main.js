@@ -17,6 +17,6 @@
     formHandler.addSubmitHandler(function (data) {
         myTruck.createOrder.call(myTruck, data);
         checkList.addRow.call(checkList, data);
-    });
+    }, 'payment.html');
 
 }) (window);
